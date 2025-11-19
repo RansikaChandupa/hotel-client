@@ -21,7 +21,7 @@
           </mat-form-field>
         </div>
         <div class="col-12" style="text-align: center">
-          <a href="#" style="text-decoration: none">Forgot Password?</a><br/><br/>
+          <a routerLink="/security/forgot-password" style="text-decoration: none">Forgot Password?</a><br/><br/>
         </div>
         <div class="col-12" style="text-align: center">
           <mat-checkbox [ngModelOptions]="{standalone: true}" [(ngModel)]="showStatus"  class="example-margin">Show Password</mat-checkbox>
@@ -37,7 +37,7 @@
           <br><br>
         </div>
         <div class="col-12">
-          <button class="col-12" matButton="tonal" color="warm">Create An Account</button>
+          <button class="col-12" matButton="tonal" color="warm" routerLink="/security/register">Create An Account</button>
         </div>
       </div>
     </div>
